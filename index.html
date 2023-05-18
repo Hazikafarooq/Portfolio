@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f07a54e54.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Hazika.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href ='#header'>Home</a></li>
+                <li><a href ='#about'>About</a></li>
+                <li><a href ='#services'>Services</a></li>
+                <li><a href ='#portfolio'>Portfolio</a></li>
+                <li><a href ='#contact'>Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Electrical Engineer</p>
+            <h1>Hi, I am <span>Hazika</span><br> from Pakistan</h1>
+        </div>
+    </div>
+</div>
+
+<!-- -----------ABOUT--------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/meex.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, pariatur explicabo laudantium consectetur cum esse, blanditiis unde ipsam quisquam, ratione odio aliquid veritatis. Obcaecati reprehenderit fugit, amet ipsam praesentium hic!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>Content Writer</span><br>SEO Manager</li>
+                    <li><span>Data Scientist</span><br>ML Engineer</li>
+                    <li><span>Electrical Engineer</span><br>Building circuits</li>
+                </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2022 - current</span><br>DataScientist at AdditechSim</li>
+                    <li><span>2022 - current</span><br>Content Editor DM Pathshala</li>
+                    <li><span>2021 - current</span><br>TA Programming Fundamentals</li>
+                </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>2020 - current</span><br>BS Electrical Engineer</li>
+                    <li><span>2022</span><br>Data Science Career Track</li>
+                    <li><span>2020</span><br>HSC Intermediate</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------SERVICES------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-solid fa-keyboard"></i>
+            <span><h2>Content Management</h2></span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam illo velit consectetur aliquid consequatur. Impedit ex fugit provident necessitatibus voluptates beatae, alias nobis qui quod ipsum, quibusdam cumque, porro perspiciatis?</p>
+            <a href="#">Learn more</a></div>
+
+            <div>
+                <i class="fa-solid fa-chart-area"></i>
+            <span><h2>Data Science</h2></span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam illo velit consectetur aliquid consequatur. Impedit ex fugit provident necessitatibus voluptates beatae, alias nobis qui quod ipsum, quibusdam cumque, porro perspiciatis?</p>
+            <a href="#">Learn more</a></div>
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+            <span><h2>Web Designing</h2></span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam illo velit consectetur aliquid consequatur. Impedit ex fugit provident necessitatibus voluptates beatae, alias nobis qui quod ipsum, quibusdam cumque, porro perspiciatis?</p>
+            <a href="#">Learn more</a></div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------PORTFOLIO------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>this article provides you insights of best tech laptops around the corner in 2023.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>this article provides you insights of best tech laptops around the corner in 2023.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>this article provides you insights of best tech laptops around the corner in 2023.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More </a>
+    </div>
+</div>
+
+<!-- ------------------CONTACT------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-inbox"></i>Contact@example.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>03487830223</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hazika.farooq"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://medium.com/@hazikafarooqkhatri"><i class="fa-brands fa-medium"></i></a>
+                    <a href="xx.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hazikakhatri/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="content-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="Your Message" placeholder='Your Message' cols="30" rows="6"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright hazika, made with <i class="fa-solid fa-heart"></i> easy tutorials.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link')
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab')
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbziw7hCztsalQFGLmJ1ORgaY7KAPmuH7zZoJdtEJAH1xDvJFIUHg8GWEsIq5w8LUAPKzg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Message sent successfully' 
+            setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+            })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
